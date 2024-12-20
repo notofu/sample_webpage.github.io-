@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>函館高専バスケ部</title>
+  <script src="js/jquery.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/fuwaimg.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <nav id="globalnav" class="colorchange">
+    <div class="globalnav_bg"></div>
+    <div class="container">
+      <h1 class="logo"><a href="index.html">BASKETBALL HNCT</a></h1>
+      <p id="menubtn">&#9776;</p>
+        <ul id="navmenu">
+          <li><a href="sample1.html">試合結果</a></li>
+          <li><a href="sample2.html">ギャラリー</a></li>
+          <li><a href="#">メニュー</a>
+            <ul>
+              <li><a href="index.html#news">ニュース</a></li>
+              <li><a href="index.html#about">about</a></li>
+              <li><a href="index.html#gallery">gallery</a></li>
+              <li><a href="index.html#contact">contact</a></li>
+            </ul>
+          </li>
+        </ul>
+    </div>
+  </nav>
+
+<header id="eyecatch"> <!-- header始まり  -->
+
+<img src="img/top.png" alt="TEMPLATE - [PROJECT]" class="top-pc">
+<img src="img/top.png" alt="TEMPLATE - [PROJECT]" class="top-phone">
+<!--
+スマホで見た場合だけ見せる画像を変えたい場合は、
+下の行（class="top-phone"の方）でスマホで見せたい画像を指定してください。
+PCではきれいに表示されても、スマホで見ると魅せたいエリアが画面外に切り抜かれてしまう可能性があります。
+ -->
+
+</header> <!-- headerおわり  -->
+
+
+<main>
+
+  <section class="bgcolor2"> <!-- NEWSセクションはじまり -->
+    <!-- sectionにclass="bgcolor2"を与えると背景がグレーに、classを削除すると背景が白になります -->
+    <div class="container">
+      <h2 id="news">NEWS</h2>
+      <dl class="news">
+        <dt>20XX.XX.XX</dt>
+        <dd>〇〇を更新しました。</dd>
+      </dl>
+      <dl class="news">
+        <dt>20XX.XX.XX</dt>
+        <dd>〇〇を更新しました。<br>改行もできます。</dd>
+      </dl>
+      <dl class="news">
+        <dt>2020.07.02</dt>
+        <dd><a href="#">リンクを貼ることもできます。</a></dd>
+      </dl>
+
+    </div>
+  </section> <!-- NEWSセクションおわり -->
+
+  <section> <!-- ABOUTセクションはじまり -->
+    <div class="container">
+
+      <h2 id="about">ABOUT</h2>
+
+      <p>文章を書く。文章を書く。文章を書く。文章を書く。文章を書く。文章を書く。文章を書く。文章を書く。文章を書く。文章を書く。文章を書く。文章を書く。文章を書く。文章を書く。文章を書く。文章を書く。文章を書く。文章を書く。文章を書く。文章を書く。文章を書く。文章を書く。文章を書く。文章を書く。文章を書く。文章を書く。文章を書く。文章を書く。文章を書く。文章を書く。文章を書く。文章を書く。文章を書く。文章を書く。文章を書く。文章を書く。文章を書く。文章を書く。文章を書く。文章を書く。文章を書く。文章を書く。文章を書く。文章を書く。文章を書く。</p>
+
+
+    </div>
+  </section> <!-- ABOUTセクションおわり -->
+
+  <section class="bgcolor2"> <!-- GALLERYセクションはじまり -->
+    <div class="container">
+
+      <h2 id="gallery">GALLERY</h2>
+
+      <p class="center">ギャラリーに関する文章を書きます。画像にリンクをつけることもできます。あってもなくても良いと思います。</p>
+
+      <ul class="illust">
+        <li><a href="img/logo01.png" data-fimg="illust" data-fcaption="バスケットボールの画像です。" class="fuwaimg"><img src="img/logo01.png"></a></li>
+        <li><a href="img/logo01.png" data-fimg="illust" data-fcaption="バスケットボールの画像です。" class="fuwaimg"><img src="img/logo01.png"></a></li>
+        <li><a href="img/logo01.png" data-fimg="illust" data-fcaption="バスケットボールの画像です。" class="fuwaimg"><img src="img/logo01.png"></a></li>
+        <li><a href="img/logo01.png" data-fimg="illust" data-fcaption="バスケットボールの画像です。" class="fuwaimg"><img src="img/logo01.png"></a></li><li><a href="img/logo01.png" data-fimg="illust" data-fcaption="バスケットボールの画像です。" class="fuwaimg"><img src="img/logo01.png"></a></li>
+      </ul>
+
+    </div>
+
+  </section> <!-- GALLERYセクションおわり -->
+
+  <section class="bgcolor3"> <!-- CONTACTセクションはじまり -->
+    <div class="container">
+
+      <h2 id="contact">CONTACT</h2>
+      <ul class="col2">
+                        <li>
+                            <p>〒042-0953 北海道函館市戸倉町14-1</p>
+                            <p>TEL: 0138-59-6300</p>
+                            <p>Email: noto[at]hakodate-ct.ac.jp</p>
+                        </li>
+                        <li>
+                            <div id="map">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2975.0669452234683!2d140.79994707607963!3d41.78377087125235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f9ef4e8a60848cf%3A0x6090a288628c19ea!2z5Ye96aSo5bel5qWt6auY562J5bCC6ZaA5a2m5qCh!5e0!3m2!1sja!2sjp!4v1734657816615!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            </div>
+                        </li>
+                    </ul>
+
+    </div>
+  </section> <!-- CONTACTセクションおわり -->
+
+</main>
+
+<!-- 最上部に戻るボタンここから -->
+<a href="#" id="totop"></a>
+<!-- 最上部に戻るボタンここまで -->
+
+<footer>
+<div class="container">
+
+<!-- フッターにコンテンツを入れない場合、削除するエリアここから -->
+  <div class="wrap-3col">  <!-- wrap-3colここから -->
+
+    <div class="inner">
+      <h1>函館高専バスケ部</h1>
+      <p class="memo">http://xxx.xxx.com/(ここにURL)<br>
+      管理人名</p>
+      <p class="memo">リンクフリー・etc...<br>
+      サイトについての情報を書いてもいい感じ<br>
+      バナーを貼ってもOK</p>
+    </div>  <!-- inner左カラムここまで -->
+
+    <div class="inner">
+      <ul class="menu">
+        <li><a href="#">MENU 1</a></li>
+        <li><a href="#">MENU 2</a>
+          <ul>
+            <li><a href="#">sub menu 1</a></li>
+            <li><a href="#">sub menu 2</a></li>
+            <li><a href="#">sub menu 3</a></li>
+          </ul>
+        </li>
+        <li><a href="#">MENU 3</a></li>
+        <li><a href="#">MENU 4</a></li>
+      </ul>
+    </div>  <!-- inner中央カラムここまで -->
+
+    <div class="inner">
+      <p>twitterタイムラインなどはここに埋め込んでも〇</p>
+    </div>  <!-- inner右カラムここまで -->
+
+  </div>  <!-- wrap-3colここまで -->
+<!-- フッターにコンテンツを入れない場合、削除するエリアここまで -->
+
+<p id="copyright"><a href="https://do.gt-gt.org/" target="_blank">template by do.</a></p>
+
+</div>
+</footer>
+
+<script src="js/common.js"></script>
+<script src="js/fuwaimg.js"></script>
+<script src="js/scrollbooster.min.js"></script>
+<script src="js/scrollbooster.min.js.map"></script>
+</body>
+
+</html>
